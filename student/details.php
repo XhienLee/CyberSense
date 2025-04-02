@@ -20,7 +20,7 @@ $courseDetails = $courses[$courseId] ?? null;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($courseDetails['title'] ?? 'Course Details'); ?></title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="details.css">
 </head>
 <body>
