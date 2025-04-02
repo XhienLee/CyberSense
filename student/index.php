@@ -26,10 +26,10 @@ $courses = json_decode(file_get_contents('../module/course.json'), true);
     <header class="top-nav">
       <div class="profile-circle"></div>
       <nav class="main-menu">
-        <a href="index.php" class="<?php echo isActive("home.php") ?>">Home</a>
-        <a href="dashboard.php" class="<?php echo isActive("dashboard.php") ?>">Dashboard</a>
+        <a href="#" class="<?php echo isActive("home.php") ?>">Home</a>
+        <a href="#" class="<?php echo isActive("dashboard.php") ?>">Dashboard</a>
         <a href="index.php" class="<?php echo isActive("index.php") ?>">My courses</a>
-        <a href="report.php" class="<?php echo isActive("report.php") ?>">Report & Analysis</a>
+        <a href="#" class="<?php echo isActive("report.php") ?>">Report & Analysis</a>
       </nav>
       <div class="vertical-divider"></div>
       <div class="profile-circle"></div>
