@@ -4,13 +4,12 @@
 // DISABLE SAD NAKO ANG SESSION CHECK
 /*
 session_start();
-require_once '../functions/function.php';
 if (!isset($_SESSION['user_type']) || $_SESSION['user_type'] !== 'student') {
     header("Location: ../login/index.php");
     exit();
 }
 */
-
+require_once '../functions/function.php';
 $courseId = isset($_GET['id']) ? urldecode($_GET['id']) : null;
 $courses = json_decode(file_get_contents('../module/course.json'), true);
 $courseDetails = $courses[$courseId] ?? null;
