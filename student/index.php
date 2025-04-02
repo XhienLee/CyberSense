@@ -1,12 +1,14 @@
 <?php
-session_start();
 require_once '../functions/function.php';
+/*
+session_start();
 if (!isset($_SESSION['user_type']) || $_SESSION['user_type'] !== 'student') {
   header("Location: ../login/index.php");
   exit();
 }
 $user = isset($_SESSION['name']) ? strtok($_SESSION['name'], " ") : "Student";
 $courses = json_decode(file_get_contents('../module/course.json'), true);
+*/
 ?>
 <!DOCTYPE html>
 <html lang="en">
